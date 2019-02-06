@@ -53,6 +53,18 @@ composer clearcache
 php artisan cache:clear
 </pre>
 
+<b>Obs</b>
+<p>Após desinstalação e uma nova instalação, recursos não disponibilizam no post-packager-unistall a remoção, por script, das dependencias publicadas. Esse recurso estará disponível no framework Dracula DC. Os seeders, que complementam a instalação dos packagers, caso não sejam removidos, numa nova instalação, mesmo publicando novamente, os arquivos não são reescritos mantendo a configuração anterior. Por esse motivo, a cada desinstalação apagar os arquivos:</p>
+<pre>
+database/seeds/DraculaServerPluginsTableSeeder.php
+</pre>
+<p>Remova também do DraculaServerPluginsTableSeeder ou comentando a linha</p>
+<pre>
+..
+//$this->call(DraculaServerPluginsTableSeeder::class);
+..
+</pre>
+
 <hr>
 <img src="https://i.postimg.cc/Ls5wqb5G/Captura-de-tela-em-2019-02-06-12-55-26.png">
 <img src="https://i.postimg.cc/zBRQ7Hnj/Captura-de-tela-em-2019-02-06-12-56-00.png">
