@@ -1,0 +1,39 @@
+{
+    "name": "lameck/dracula_batservers",
+    "description": "Plugin para Dracula: Bat Servers",
+    "keywords": [
+        "dracula project",
+        "laravel",
+        "dracula hosts"
+    ],
+    "homepage": "https://github.com/EuFreela/bat-servers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lameck Fernandes",
+            "email": "lameckfernandes@hotmail.com",
+            "homepage": "https://github.com/EuFreela",
+            "role": "Developer"
+        }
+    ],
+    "require": {       
+        "php": "^5.5.9 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lameck\\Dracula\\Server\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0-dev"
+        },
+        "laravel": {            
+            "providers": [
+                "Lameck\\Dracula\\Server\\DraculaServerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
