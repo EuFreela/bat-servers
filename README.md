@@ -2,7 +2,7 @@
 Plugin para Dracula: Bat Servers
 
 
-<a href="" target="_blank">Assinatura</a>
+<a href="https://packagist.org/packages/lameck/dracula_batservers" target="_blank">Assinatura</a>
 
 ## Dependência
 Utilize o Dracula Dashboard Clean. Este plugin, assim como demais outros, acompanharam as futuras atualizações do projeto Dracula. Os plugins permitem uma programação descentralizada reutilizando recursos já definidos no projeto raiz.
