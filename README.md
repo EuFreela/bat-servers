@@ -25,16 +25,6 @@ php artisan cache:clear
 composer require lameck/dracula_batservers
 </pre>
 
-<p>Configure na aplicação em config/app.php</p>
-<pre>
-[providers] => [
-...
-//DRACULA PLUGINS
-Lameck\Dracula\Hosts\DraculaServerServiceProvider::class,
-..
-]
-</pre>
-
 <p>Publique as dependencias do Lameck\Dracula\Hosts\DraculaServerServiceProvider</p>
 <pre>
 php artisan vendor:publish
@@ -63,13 +53,4 @@ composer clearcache
 php artisan cache:clear
 </pre>
 
-<p>Remova a linha em config/app.php</p>
-<pre>
-[providers] => [
-...
-//DRACULA PLUGINS
-//Lameck\Dracula\Hosts\DraculaServerServiceProvider::class,
-..
-]
-</pre>
 
