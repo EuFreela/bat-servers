@@ -1,4 +1,4 @@
-# bat-servers
+# Bat Servers
 Plugin para Dracula: Bat Servers
 
 
