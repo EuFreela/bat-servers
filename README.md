@@ -53,4 +53,8 @@ composer clearcache
 php artisan cache:clear
 </pre>
 
+<hr>
+<img src="https://i.postimg.cc/Ls5wqb5G/Captura-de-tela-em-2019-02-06-12-55-26.png">
+<img src="https://i.postimg.cc/zBRQ7Hnj/Captura-de-tela-em-2019-02-06-12-56-00.png">
+
 
