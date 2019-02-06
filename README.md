@@ -55,4 +55,21 @@ composer dump-autoload
 php artisan db:seed
 </pre>
 
+### REMOVE
+
+<pre>
+composer remove lameck/dracula_batservers
+composer clearcache
+php artisan cache:clear
+</pre>
+
+<p>Remova a linha em config/app.php</p>
+<pre>
+[providers] => [
+...
+//DRACULA PLUGINS
+//Lameck\Dracula\Hosts\DraculaServerServiceProvider::class,
+..
+]
+</pre>
 
