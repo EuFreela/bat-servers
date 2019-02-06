@@ -30,7 +30,7 @@ composer require lameck/dracula_batservers
 php artisan vendor:publish
 </pre>
 
-<p>Configure o plugin no banco de dados. Abra o DatabaseSeeder.php e adicione a linha</p>
+<p>Configure o plugin no banco de dados. Abra o database/seeds/DatabaseSeeder.php e adicione a linha</p>
 <pre>
 $this->call(DraculaServerPluginsTableSeeder::class);
 </pre>
